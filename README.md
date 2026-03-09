@@ -41,7 +41,7 @@
 
 ### RSI Göstergesi
 
-> 📷 *`screenshots/rsi.png` — 14 günlük RSI, aşırı alım/satım bölgeleri*
+> 📷 *`screenshots/rsi.png` — 14 günlük RSI, aşırı alım/si
 
 ![RSI](screenshots/rsi.png)
 
@@ -81,8 +81,8 @@
 ```
 mini-bist-portfolio-analysis/
 │
-├── app.py               ← İnteraktif GUI dashboard (önerilen)
-├── main.py              ← CLI modu (sıralı grafik)
+├── app.py               
+├── main.py             
 ├── requirements.txt
 ├── README.md
 │
@@ -91,13 +91,13 @@ mini-bist-portfolio-analysis/
 │   ├── ASELS.csv
 │   └── TUPRS.csv
 │
-├── screenshots/         ← Ekran görüntüleri buraya
+├── screenshots/         
 │
 └── src/
-    ├── data_loader.py   ← CSV okuma, MA, Bollinger, RSI
-    ├── returns.py       ← Sharpe, Drawdown, kümülatif getiri
-    ├── portfolio.py     ← Golden Cross stratejisi
-    └── visualization.py ← 7 grafik fonksiyonu (dark theme)
+    ├── data_loader.py  
+    ├── returns.py      
+    ├── portfolio.py    
+    └── visualization.py
 ```
 
 ---
